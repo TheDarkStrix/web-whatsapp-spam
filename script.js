@@ -21,7 +21,7 @@ function spam(){
     new_emot.setAttributeNode(new_src);
     new_emot.setAttributeNode(new_alt);
     campo.appendChild(new_emot);
-    dispatch(campo, "textInput", "You have been spammer "+count+" times by <your name>"); // Fill  in your name or change the message here
+    dispatch(campo, "textInput", "You have been spammed "+count+" times by <your name>"); // Fill  in your name or change the message here
     var input = document.getElementsByClassName("icon btn-icon icon-send");
     input[0].click();
     count++;
