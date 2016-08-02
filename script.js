@@ -24,7 +24,7 @@ function spam(){
     dispatch(campo, "textInput", "You have been spammer "+count+" times by <your name>"); // Fill  in your name or change the message here
     var input = document.getElementsByClassName("icon btn-icon icon-send");
     input[0].click();
-    contador1++;
+    count++;
     setTimeout(spam,1);
   }
   else { 
